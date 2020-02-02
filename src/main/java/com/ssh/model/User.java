@@ -1,9 +1,18 @@
 package com.ssh.model;
 
 public class User {
+	public String name;
 	private Integer id;
 	public String useName;
 	public String paw;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public Integer getId() {
 		return id;
